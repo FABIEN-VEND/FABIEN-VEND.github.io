@@ -1,0 +1,112 @@
+
+
+body{
+
+    background-color: #313441;
+    color: floralwhite;
+}
+
+section{
+
+display: table;
+width: 100%;
+}
+
+.section-container{
+
+background-color: #313441;
+margin:50px 20% 50px ;
+text-align: center;
+padding: 20px;
+
+
+}
+
+
+
+/* header*/
+
+
+
+header{display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+
+header img.photo-cv{
+
+    width: 120px;
+    border-radius: 10px;
+}
+
+header h1.nom-prenom {
+
+
+    font: size 150px;
+    text-transform: uppercase;
+}
+
+
+
+/* Barre de navigation*/
+
+
+nav.nav ul li{
+
+display: inline-block;
+margin: 15px;
+
+}
+
+nav.nav ul li a{
+text-decoration: none;
+background-color: #fffaf0;
+color: #433b3b;
+padding:15px ;
+    
+}
+
+/*Présentation*/
+
+section#Présentation{
+
+height: auto;
+background: url(image/sunset-beach-background.jpg) fixed no-repeat ;
+background-position: center;
+}
+
+
+
+/*Compétence*/
+
+section#Compétences{
+height: auto;
+background: url(image/Web-developer\ photo.jpeg) fixed no-repeat;
+background-position: center;
+
+}
+
+
+.section-niveau-de-compétence{
+
+display: flex;
+
+}
+
+.niveau-compétence img{
+
+width: 100px;
+padding-right: 50px;
+padding-left: 50px;
+}
+
+
+/* footer */
+
+footer {
+
+display: flex;
+justify-content: center;
+
+}
